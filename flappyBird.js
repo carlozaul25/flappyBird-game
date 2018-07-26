@@ -86,7 +86,6 @@ function draw(){
         
         if(pipe[i].x == 5){
             score++;
-            score.play();
         }
         
         
