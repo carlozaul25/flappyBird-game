@@ -1,6 +1,7 @@
 var cvs = document.getElementById("canvas");
 var ctx = cvs.getContext("2d");
 
+
 // load images
 
 var bird = new Image();
@@ -15,6 +16,21 @@ fg.src = "images/fg.png";
 pipeNorth.src = "images/pipeNorth.png";
 pipeSouth.src = "images/pipeSouth.png";
 
+// variables
 
-// some variables
+var gap = 75;
+var constant;
+var bX = 10;
+var bY = 150;
+
+var gravity = 1.5;
+var score = 0;
+
+//Audio files
+
+var fly = new Audio;
+var score = new Audio;
+
+fly.src = "sounds/fly.mp3"
+score.src = "sounds/score.mp3"
 
